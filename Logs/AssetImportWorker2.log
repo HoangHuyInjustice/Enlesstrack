@@ -1,0 +1,2177 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15771 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Admin/Documents/GitHub/Enlesstrack
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57980
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/Enlesstrack
+C:/Users/Admin/Documents/GitHub/Enlesstrack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1704] Host "[IP] 192.168.20.123 [Port] 0 [Flags] 2 [Guid] 353262486 [EditorId] 353262486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OEA5ALJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1704] Host "[IP] 192.168.20.123 [Port] 0 [Flags] 2 [Guid] 353262486 [EditorId] 353262486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OEA5ALJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/Enlesstrack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5300M (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     3031 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004989 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 847ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (53ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (125.8 KB). Loaded Objects now: 2870.
+Memory consumption went from 112.3 MB to 112.2 MB.
+Total: 3.083100 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.501300 ms  DeleteObjects: 0.152200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6058.026007 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Male_Hair_01.fbx
+  artifactKey: Guid(2728dc2ef47c15046a790f0beb621bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Male_Hair_01.fbx using Guid(2728dc2ef47c15046a790f0beb621bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3856eb40518104b12346aceb955cfce6') in 0.168560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Rubble_Stone_02.fbx
+  artifactKey: Guid(827bed4f36dd9f048b433e3a60771eec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Rubble_Stone_02.fbx using Guid(827bed4f36dd9f048b433e3a60771eec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0084713e44bd5df847dd9347a20381cb') in 0.021482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Port_Boat_Tie_01.fbx
+  artifactKey: Guid(c717a32e320fb1e44940217baba11876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Port_Boat_Tie_01.fbx using Guid(c717a32e320fb1e44940217baba11876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efda399e042fd309f5e984abde475b7b') in 0.021507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Road_Straight_Damaged_01.fbx
+  artifactKey: Guid(cb153355387d36e41983df1b150792e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Road_Straight_Damaged_01.fbx using Guid(cb153355387d36e41983df1b150792e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f6b70c5bbbd6e37668a79e2a433c081') in 0.027271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Tacticle_01.fbx
+  artifactKey: Guid(9791e0bc787af4246930451ad26fdc37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Tacticle_01.fbx using Guid(9791e0bc787af4246930451ad26fdc37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a026d49c3116d01366c134de4446aed') in 0.021279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Rubble_Stone_01.fbx
+  artifactKey: Guid(bc681e3023d51504babe7ea934a6301a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Rubble_Stone_01.fbx using Guid(bc681e3023d51504babe7ea934a6301a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfdb2a198a60875ab6ada4b7645b321a') in 0.021699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Party_01.fbx
+  artifactKey: Guid(647e16b6c1fd043408356f1e65ec0cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Party_01.fbx using Guid(647e16b6c1fd043408356f1e65ec0cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd265f23597f1cfffc4bbe7da4ba68cea') in 0.020947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Squid_01.fbx
+  artifactKey: Guid(9c653cb21a833f44ead8d0a6285abe4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Chr_Attach_Hat_Squid_01.fbx using Guid(9c653cb21a833f44ead8d0a6285abe4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d9a87dfc90ee7b7c55a20906536ba59') in 0.021679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Port_Wall_Corner_01.fbx
+  artifactKey: Guid(8ab522562fa79854e8d588e9f2956d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Port_Wall_Corner_01.fbx using Guid(8ab522562fa79854e8d588e9f2956d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '822400da08ec6d270b07eb02c0b80f44') in 0.022395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Dock_01.fbx
+  artifactKey: Guid(63e678f1eb5f48b43a49a863d6dc905d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Dock_01.fbx using Guid(63e678f1eb5f48b43a49a863d6dc905d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70a08786aa77eb626ded0e49f6052463') in 0.022258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Grass_Square_01.fbx
+  artifactKey: Guid(e330da6f6bba5a64697a4388734c932e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Grass_Square_01.fbx using Guid(e330da6f6bba5a64697a4388734c932e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87dabc713a556f4bffe38fc4ff9b0a8a') in 0.020430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Env_Bridge_01.fbx
+  artifactKey: Guid(cfe04afaedf707442a06c4bd60e63d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Env_Bridge_01.fbx using Guid(cfe04afaedf707442a06c4bd60e63d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4428deead49d62e6870c5212893bba3') in 0.023359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.376223 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Generic_Cloud_01.fbx
+  artifactKey: Guid(2fb675b4d0646934db7621b9fe3d4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Generic_Cloud_01.fbx using Guid(2fb675b4d0646934db7621b9fe3d4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5d1b5440fd8d4a5daf20244fc754d90') in 0.021539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Attachment_Redot_01.fbx
+  artifactKey: Guid(e2462e9d8992c7540a2cc5e821d147fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Attachment_Redot_01.fbx using Guid(e2462e9d8992c7540a2cc5e821d147fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd88403b86f8b3a35863a020dca08d840') in 0.025120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Ammo_BulletLarge_01.fbx
+  artifactKey: Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Ammo_BulletLarge_01.fbx using Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7703a2961bc3a9debdebf90952fe073') in 0.026805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Half_01.fbx
+  artifactKey: Guid(ef84424f872715e49aa8fc8407209614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Half_01.fbx using Guid(ef84424f872715e49aa8fc8407209614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd794310f6c162a8e390f5a90cdc4421') in 0.029760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Pills_01.fbx
+  artifactKey: Guid(6ca2d6cac62ca3043b5cec0763236abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Pills_01.fbx using Guid(6ca2d6cac62ca3043b5cec0763236abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01bc239dbc54a01a7f9505562bac8657') in 0.022032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_03.fbx
+  artifactKey: Guid(b413ebeaea125024bb58b0b4c00714f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_03.fbx using Guid(b413ebeaea125024bb58b0b4c00714f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c482d52e296ee333b037db717384349') in 0.026479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Rubbish_Papers_01.fbx
+  artifactKey: Guid(25fb9f08b288cd14e988bf133ad7786f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Rubbish_Papers_01.fbx using Guid(25fb9f08b288cd14e988bf133ad7786f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0237b7a80fc2eba53fbf3b4cc1be7fac') in 0.022960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Veh_Boat_Destroyed_01.fbx
+  artifactKey: Guid(7be19305a11b2c545b842e9d876c54d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Veh_Boat_Destroyed_01.fbx using Guid(7be19305a11b2c545b842e9d876c54d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be94c82a3eb10c81b03f7ab082fac6a1') in 0.031260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_BaseWall_Broken_01.fbx
+  artifactKey: Guid(26af6840ccf037547b0d887e07934fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_BaseWall_Broken_01.fbx using Guid(26af6840ccf037547b0d887e07934fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dac93aa919f34b9fe9573c6be64339bb') in 0.027915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_MissileStack_01.fbx
+  artifactKey: Guid(51f280217127e2d45b6d3f64cc218e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_MissileStack_01.fbx using Guid(51f280217127e2d45b6d3f64cc218e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b9bf049de89f14fa99e57c3ee7fab4f') in 0.027925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Veh_Car_Plate_01.fbx
+  artifactKey: Guid(2ae4241dbe2748c4e92c93fa9806ec66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Veh_Car_Plate_01.fbx using Guid(2ae4241dbe2748c4e92c93fa9806ec66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfe61a6782213525f08afef3f5da0059') in 0.026833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_BriefcaseBomb_01.fbx
+  artifactKey: Guid(49cd97c2c50d0374c926d7dc1a6a0375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_BriefcaseBomb_01.fbx using Guid(49cd97c2c50d0374c926d7dc1a6a0375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '351a81c15c75cf4b05e6b0d8e27fb51b') in 0.027926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_04.fbx
+  artifactKey: Guid(5c4da54c443dbd241a7a2ee9464ebae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_04.fbx using Guid(5c4da54c443dbd241a7a2ee9464ebae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b9c555eb8c93518cdcdab824c1ee8ec') in 0.024787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Wirespool_01.fbx
+  artifactKey: Guid(d84c6681841e4d74bbfffe9a40b12f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Wirespool_01.fbx using Guid(d84c6681841e4d74bbfffe9a40b12f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5699231b07ee70bc42999b3a4dee8b34') in 0.024961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Particle_Smoke_01.fbx
+  artifactKey: Guid(41e18b74cd8bd984b94d58c040bb66da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Particle_Smoke_01.fbx using Guid(41e18b74cd8bd984b94d58c040bb66da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd95d0d760399ed9e9978a1cf8dd4ce7a') in 0.023513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_EmergencyDrop_01.fbx
+  artifactKey: Guid(1a82239eb98b56943a1ee577f956fbb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_EmergencyDrop_01.fbx using Guid(1a82239eb98b56943a1ee577f956fbb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64654afa6aefb3baab4b31b29f04ee61') in 0.039635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_02.fbx
+  artifactKey: Guid(03794ae1543d78e4f9490ea2ee93ab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_02.fbx using Guid(03794ae1543d78e4f9490ea2ee93ab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6376b155f6d151c85d7f7535093ce61') in 0.027243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Crosshair_03.fbx
+  artifactKey: Guid(71d88d260d3bd6140bbbb8b1f6a9bca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Crosshair_03.fbx using Guid(71d88d260d3bd6140bbbb8b1f6a9bca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a364eecc0be5730a7c9f1a4bc4d36d0') in 0.027535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_PalletStack_01.fbx
+  artifactKey: Guid(fc88cb2b0d4fb704ea6ea4ce16582ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_PalletStack_01.fbx using Guid(fc88cb2b0d4fb704ea6ea4ce16582ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc13519c8d55962e7f0b7bf123d877ce') in 0.029081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_WireFence_02.fbx
+  artifactKey: Guid(63d554a26f4036e46964f34464d41b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_WireFence_02.fbx using Guid(63d554a26f4036e46964f34464d41b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '090c51a8b99ad1579e9230b7b1d258aa') in 0.027416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Generic_Mountains_Grass_01.fbx
+  artifactKey: Guid(2d6815261c46f16419739eb86e8fb250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Generic_Mountains_Grass_01.fbx using Guid(2d6815261c46f16419739eb86e8fb250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '021e32f5f9181d935995592f891af927') in 0.024411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Generic_Mountains_Grass_02.fbx
+  artifactKey: Guid(84f865d1a6137314185ef8122409ad58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Generic_Mountains_Grass_02.fbx using Guid(84f865d1a6137314185ef8122409ad58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '126c4e538830476f60fa4770f543864e') in 0.031270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Bullet_Ammo_01.fbx
+  artifactKey: Guid(851ccb37a25a2be49a2df0aa45a61045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Bullet_Ammo_01.fbx using Guid(851ccb37a25a2be49a2df0aa45a61045) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c29a6f7f5b81d21e3e9790070cc1c73') in 0.025801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_02.fbx
+  artifactKey: Guid(1c28d1614222e5642a0f92a71adc312b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_02.fbx using Guid(1c28d1614222e5642a0f92a71adc312b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de55294488a0e1daedf8adbd0af89bb1') in 0.025207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Fireaxe_01.fbx
+  artifactKey: Guid(113a6a871f8774c4aad2f7808e49b2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Fireaxe_01.fbx using Guid(113a6a871f8774c4aad2f7808e49b2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd94ce5e1b014f0a9bdac7e0351341d9') in 0.023945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Padlock_02.fbx
+  artifactKey: Guid(ea6ca25dd576d6b4e91460b211721c82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Padlock_02.fbx using Guid(ea6ca25dd576d6b4e91460b211721c82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7920c54c537ea0170293a3dfc357bb5') in 0.028205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Pallet_Loaded_02.fbx
+  artifactKey: Guid(39f64bdd932a1ee4cad8aab514a6d8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Pallet_Loaded_02.fbx using Guid(39f64bdd932a1ee4cad8aab514a6d8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f7f2f911418a11e747fa4158096d65c') in 0.027715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_Dirt_01.fbx
+  artifactKey: Guid(a29c9161de01ce743b985b4f4ed4a423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Barrier_Dirt_01.fbx using Guid(a29c9161de01ce743b985b4f4ed4a423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd68dc2412adf98a63f9e55854436b9f6') in 0.024470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Door_01.fbx
+  artifactKey: Guid(db8bc3d166184ac4d85181169931b8e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Door_01.fbx using Guid(db8bc3d166184ac4d85181169931b8e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e243f6fc0e018328f3f41d32c6b6b95') in 0.027228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_MedicalBox_02.fbx
+  artifactKey: Guid(49ad48ecb0ef72446a1d0c3c6d0b54df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_MedicalBox_02.fbx using Guid(49ad48ecb0ef72446a1d0c3c6d0b54df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f21c9b28e68bb915b2c79fbdc37f4e25') in 0.023983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Key_01.fbx
+  artifactKey: Guid(018a076dbeef6de47a81b37d67116248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Key_01.fbx using Guid(018a076dbeef6de47a81b37d67116248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ed3d83a874162193f74e355275e4432') in 0.025473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Window_01.fbx
+  artifactKey: Guid(5c1ef6aff58fcec4da97d75a7258c82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_Window_01.fbx using Guid(5c1ef6aff58fcec4da97d75a7258c82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66888067ae36a9ce2482b128536bf0c1') in 0.027557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Generic_Tree_01.fbx
+  artifactKey: Guid(ffc63fecea48ed3418c6689c532819c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Generic_Tree_01.fbx using Guid(ffc63fecea48ed3418c6689c532819c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8443f57fa763fb52698d243e8ead6ddc') in 0.027210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Iron_Sheet_03.fbx
+  artifactKey: Guid(057cf592b5bb475459e6fdb52e896335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Iron_Sheet_03.fbx using Guid(057cf592b5bb475459e6fdb52e896335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4de9b5dd67d3e620efbe86a6abda8cd') in 0.023837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_WireFence_01.fbx
+  artifactKey: Guid(167ce1292cf7b7446b2814b8eb9b153e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_WireFence_01.fbx using Guid(167ce1292cf7b7446b2814b8eb9b153e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fc877c2133dd375199f759fd81f75f3') in 0.029998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Bullet_Ammo_02.fbx
+  artifactKey: Guid(fc08895cacfaac24a9d55ce1469e68c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Bullet_Ammo_02.fbx using Guid(fc08895cacfaac24a9d55ce1469e68c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15f92f2a2ab1d998f6a9ff18b115bd9f') in 0.028017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Key_02.fbx
+  artifactKey: Guid(742d1184537226e41b10bf9e75cad2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Key_02.fbx using Guid(742d1184537226e41b10bf9e75cad2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68531f9f90b650aa83eff2978f6f0d65') in 0.023502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_WeaponCase_01.fbx
+  artifactKey: Guid(678da64fbb9b6784bb18b7789deaf2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_WeaponCase_01.fbx using Guid(678da64fbb9b6784bb18b7789deaf2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f38d95c665670a1e0e2121123c7f9c71') in 0.026824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Generic_Small_Rocks_01.fbx
+  artifactKey: Guid(8489ce2dffeaaf54891f0e86431bc302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Generic_Small_Rocks_01.fbx using Guid(8489ce2dffeaaf54891f0e86431bc302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5dcf438c36f0ad48c9855e648e53f25') in 0.024877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Veh_Armored_Car_Destroyed_01.fbx
+  artifactKey: Guid(372cd8638996b4d409a38bb08ce61a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Veh_Armored_Car_Destroyed_01.fbx using Guid(372cd8638996b4d409a38bb08ce61a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f94d19b522336836f9ba1aa485733e9') in 0.025317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_01.fbx
+  artifactKey: Guid(b9ff90c77d2846b4ab3c1016b039b4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Range_Wall_01.fbx using Guid(b9ff90c77d2846b4ab3c1016b039b4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fff6afc2fe3bdd7fc8143f9544170a3') in 0.023333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Portaloo_01.fbx
+  artifactKey: Guid(d035ef1ac12f6d0448076837c92b34ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Portaloo_01.fbx using Guid(d035ef1ac12f6d0448076837c92b34ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '143d8f9680add7fc4abf97fef9dadf8d') in 0.023835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Wirespool_02.fbx
+  artifactKey: Guid(0888785e9ad551f46985a0f409d91e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Wirespool_02.fbx using Guid(0888785e9ad551f46985a0f409d91e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eaefaa279b50fdbff1085315b046ae2d') in 0.020903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Veh_Light_Car_Destroyed_01.fbx
+  artifactKey: Guid(7d2ae054691ed2d4baaab93d4c023a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Veh_Light_Car_Destroyed_01.fbx using Guid(7d2ae054691ed2d4baaab93d4c023a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcf34d70a9280a2f48b6db53115c7042') in 0.022523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_BunkBed_01.fbx
+  artifactKey: Guid(3bf8bdd3756fba14782d4f35552a15f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_BunkBed_01.fbx using Guid(3bf8bdd3756fba14782d4f35552a15f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b84025ecad1faf8507041299a65d9bf') in 0.024235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_GuardTower_01.fbx
+  artifactKey: Guid(d527d71f2ee3ff9438e1294fa6515aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_GuardTower_01.fbx using Guid(d527d71f2ee3ff9438e1294fa6515aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd03b2c34d81b4f35a444651c973da195') in 0.023576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Pallet_01.fbx
+  artifactKey: Guid(cecc52f1106c3644b82812f74ac79286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Pallet_01.fbx using Guid(cecc52f1106c3644b82812f74ac79286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6862012c847237d05a1b566e2a8279e') in 0.021190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Rubbish_Can_01.fbx
+  artifactKey: Guid(546f08ca328075140a6c23eaee8ec481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Rubbish_Can_01.fbx using Guid(546f08ca328075140a6c23eaee8ec481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2127c163f2d4a5f6f108f6a8f901d5a0') in 0.022923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_HeadBase_Black.fbx
+  artifactKey: Guid(185176e71606ac241941b710534d09f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_HeadBase_Black.fbx using Guid(185176e71606ac241941b710534d09f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d942a1ab74346747fdf499e9acef629') in 0.022125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Crosshair_Sniper_01.fbx
+  artifactKey: Guid(dacc42cfe6fdf3548b8738c739e4969c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Crosshair_Sniper_01.fbx using Guid(dacc42cfe6fdf3548b8738c739e4969c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f92b386fd255289a5dc31bb0cc7b6a54') in 0.023696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Prop_Barrel_01.fbx
+  artifactKey: Guid(0acbe6231ba03f5479a1f15c0ad08050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Prop_Barrel_01.fbx using Guid(0acbe6231ba03f5479a1f15c0ad08050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45b7ad02d30341a8ecc3500cc3e1212d') in 0.021882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Veh_Tank_USA_01.fbx
+  artifactKey: Guid(1e70f83fd953e9e49adb1026cf90f1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Veh_Tank_USA_01.fbx using Guid(1e70f83fd953e9e49adb1026cf90f1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9391639c3de1af9ffb792ef09b327d20') in 0.062540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.962189 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Flare_Ammo_01.fbx
+  artifactKey: Guid(30b1721f2df7ebb4d94b6e165791ee16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Flare_Ammo_01.fbx using Guid(30b1721f2df7ebb4d94b6e165791ee16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '920116ba226c7350e3035c20a727f7c6') in 0.022324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_01_Damaged.png
+  artifactKey: Guid(5fe125a50a9fc5349b3d626a0fa0c4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_01_Damaged.png using Guid(5fe125a50a9fc5349b3d626a0fa0c4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25657e9a833ffbf8258886d94f06b3e1') in 0.075707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0485ab8e6576c4f6418dab90971c5cab') in 0.015307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Grenade_Ammo_Pile_01.fbx
+  artifactKey: Guid(cb0450618fa02fc44adab2ef67d67d47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Grenade_Ammo_Pile_01.fbx using Guid(cb0450618fa02fc44adab2ef67d67d47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2125fddee542d466797c2a390bacc8cb') in 0.027446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93dbf2906eb7ea1fdbd930ce4a7cedac') in 0.021327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Block/Block_Car_0.prefab
+  artifactKey: Guid(129adabf303b36347976d90ee1860b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Block/Block_Car_0.prefab using Guid(129adabf303b36347976d90ee1860b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e357cb4e450a8b418f722d5b5e369015') in 0.030207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_SubMGun_Lite_01.fbx
+  artifactKey: Guid(219d6ed6485f29449922ad24628238ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_SubMGun_Lite_01.fbx using Guid(219d6ed6485f29449922ad24628238ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44dce0013bc846ce7390d56f5a5f9eed') in 0.036658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Block/Block_Bin2.prefab
+  artifactKey: Guid(e44248daa8392964cbb29b60bf508efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Block/Block_Bin2.prefab using Guid(e44248daa8392964cbb29b60bf508efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea47d5f9922533f196e71d04820602b6') in 0.015799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_RiotShield_01.fbx
+  artifactKey: Guid(4e5c9ab4a30f0544992b132b6c22b6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_RiotShield_01.fbx using Guid(4e5c9ab4a30f0544992b132b6c22b6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c22b88caaaccf3b2552e147f9e23c4ea') in 0.025682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Ground/GroundTitle_1.prefab
+  artifactKey: Guid(2229911982291864bafa4201316d016f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ground/GroundTitle_1.prefab using Guid(2229911982291864bafa4201316d016f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35a1d27eeefb2432e288b36d370a0f6d') in 0.068475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 558
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Prefabs/Item/ItemSpeed.prefab
+  artifactKey: Guid(8106f2e19b37ab2459015be9dd26a6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Item/ItemSpeed.prefab using Guid(8106f2e19b37ab2459015be9dd26a6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4acf20a764183a82d0f32d3a12c116d') in 0.025247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Block/Block_barrier.prefab
+  artifactKey: Guid(2bc1a28bfe6adfe4996975a5f57b4701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Block/Block_barrier.prefab using Guid(2bc1a28bfe6adfe4996975a5f57b4701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21347c51cb52d3e1d59ae78c85e6eb6e') in 0.018310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3537f11352ce6c8a9cfbc7b8a094edba') in 0.018145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Player/Player_1.prefab
+  artifactKey: Guid(e292d44f5cfd30a43ab122c0d7527a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/Player_1.prefab using Guid(e292d44f5cfd30a43ab122c0d7527a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3304edac998d4917afe7651e4b3df66c') in 0.045840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Sniper_Lite_01.fbx
+  artifactKey: Guid(2ccca7b73df113548a62d6caa4ffb6b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Sniper_Lite_01.fbx using Guid(2ccca7b73df113548a62d6caa4ffb6b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d3e9a36453c578417bd40d83a6facbc') in 0.037383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Shotgun_Ammo_01.fbx
+  artifactKey: Guid(4c38f27c027f60b4e818c4ee2d79f6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Shotgun_Ammo_01.fbx using Guid(4c38f27c027f60b4e818c4ee2d79f6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afc844f8ad7dc226e64324b200422b17') in 0.029880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_04.png
+  artifactKey: Guid(301b87aaa09bb8944bbf28684b194bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_04.png using Guid(301b87aaa09bb8944bbf28684b194bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ea0422823eaa7207f255f1736a34c56') in 0.036017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_MainButton_Gray.prefab
+  artifactKey: Guid(bdb8da037ac62489d9b2f6b1250107a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_MainButton_Gray.prefab using Guid(bdb8da037ac62489d9b2f6b1250107a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95a33691ebe3cf82867356a7c7f59e0d') in 0.084695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_01_A.png
+  artifactKey: Guid(177e7f514292f9247aaff29e2bd7934f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_01_A.png using Guid(177e7f514292f9247aaff29e2bd7934f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dff83c156fe404a28728a0ae425123f') in 0.032616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_04.fbx
+  artifactKey: Guid(997054e5bd4c877459a07703fb07c047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_04.fbx using Guid(997054e5bd4c877459a07703fb07c047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf2035652f6c37d384cefbaaa05cba72') in 0.036653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_04.png
+  artifactKey: Guid(316e79f829e825044a57e15b1488b20d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_04.png using Guid(316e79f829e825044a57e15b1488b20d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39dd9bef607c5203d057484b360c4564') in 0.029361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_03.fbx
+  artifactKey: Guid(bfcc82f419f1e3a4abeb8da721e79d12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_03.fbx using Guid(bfcc82f419f1e3a4abeb8da721e79d12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd979eb4925b5e167f94a1144f67ab875') in 0.038041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_01.fbx
+  artifactKey: Guid(88fdeec172a3e9340bbdc5ab683e009e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_01.fbx using Guid(88fdeec172a3e9340bbdc5ab683e009e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a65558ef2d6a7fb8ad42ef960cad87b1') in 0.041238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Grenade_Ammo_Box_01.fbx
+  artifactKey: Guid(c3b07e50b6c3d754d943f061e0ce088c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Grenade_Ammo_Box_01.fbx using Guid(c3b07e50b6c3d754d943f061e0ce088c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4b9cbc94084d5681de92c498f2044b0') in 0.025330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/UI/SlotDashBoardUI.prefab
+  artifactKey: Guid(63fa4ab56d42bbf45ba09bae1f84afe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/UI/SlotDashBoardUI.prefab using Guid(63fa4ab56d42bbf45ba09bae1f84afe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3a66a3d9afeb1c17b3b4b4388dcae0d') in 0.034629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e090533634d21ce3fbeab26615aa2323') in 0.016896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_02.fbx
+  artifactKey: Guid(49a29c6e3aadff54691ab084ad47989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_02.fbx using Guid(49a29c6e3aadff54691ab084ad47989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1f9209bdf31bda88bef62a28ddbb025') in 0.040876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '451d739e49823f50f45c04431781fa4c') in 0.021242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf2a6c095a2912cd7c64da5ad9269efb') in 0.014830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_MainButton_Yellow.prefab
+  artifactKey: Guid(aa27390216c3a4dd89ce5cf5ad82da72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_MainButton_Yellow.prefab using Guid(aa27390216c3a4dd89ce5cf5ad82da72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bedf16ff79411dc7e8e95b888d304dbb') in 0.039516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/SM_Wep_MachineGun_01.fbx
+  artifactKey: Guid(446a4ba815eeb394d8c23498cae46bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/SM_Wep_MachineGun_01.fbx using Guid(446a4ba815eeb394d8c23498cae46bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29e2d3d5e1dd121b5d3fb82d252a38d2') in 0.036281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70d1819becea33e206f7342e87a0c168') in 0.011922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Ground/GroundTitle_0.prefab
+  artifactKey: Guid(4a0064ba93ec4374b9283c038dd959aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ground/GroundTitle_0.prefab using Guid(4a0064ba93ec4374b9283c038dd959aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67dcf10ac8bc2871f46c564772f8daae') in 0.026865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 239
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2154f549c9da682c2a7e4c23963e7b0') in 0.016539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_02.png
+  artifactKey: Guid(a196df5d78065b842a0fcbd6f59f2b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Plane_02.png using Guid(a196df5d78065b842a0fcbd6f59f2b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccadaafba5fac9e41384f14269431023') in 0.024667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_02.png
+  artifactKey: Guid(4b075c54c5c04fc4d845a94ae82684a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_02.png using Guid(4b075c54c5c04fc4d845a94ae82684a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5ff93eea32889f168d23b87fcb6d154') in 0.023965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_01_B.png
+  artifactKey: Guid(be95915253ece8a48a775c076a533870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_01_B.png using Guid(be95915253ece8a48a775c076a533870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13a069905bc58024b4f0a8b97a601510') in 0.029934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Block/Block_Car_1.prefab
+  artifactKey: Guid(de54c161783b87d46a11efcc6d456192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Block/Block_Car_1.prefab using Guid(de54c161783b87d46a11efcc6d456192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1beebd9f12fad85b9bf74057162929b5') in 0.018346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_04_A.png
+  artifactKey: Guid(2801a60e9e5c3a94381e7e4e35b3b2eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_04_A.png using Guid(2801a60e9e5c3a94381e7e4e35b3b2eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e5e6df16599a6306cffe36e349560a9') in 0.022852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_01_Damaged.png
+  artifactKey: Guid(4429eb1d9b2cf914abc67f2b83b761d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_01_Damaged.png using Guid(4429eb1d9b2cf914abc67f2b83b761d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3efa85399154c980f897d9104351d290') in 0.022854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Ground/GroundTitle_3.prefab
+  artifactKey: Guid(9cdbc8f0ca67a404b99518d0108f9b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ground/GroundTitle_3.prefab using Guid(9cdbc8f0ca67a404b99518d0108f9b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75d885a52962a184aa7d98d56ae9e608') in 0.036235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 542
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_03.png
+  artifactKey: Guid(7d399a5372b7e2546937d1214ac78599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_03.png using Guid(7d399a5372b7e2546937d1214ac78599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0e29a1a7f80187eb31d855b4e14f0bf') in 0.028271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Extensions/UIParticle/hidden particle.shader
+  artifactKey: Guid(436413deeecda493db0a125c65958fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Extensions/UIParticle/hidden particle.shader using Guid(436413deeecda493db0a125c65958fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02f48b82386b01b4e8775eb6d2412d1b') in 0.013364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Circle01_d.prefab
+  artifactKey: Guid(8c49446e2bb594c8cb4015fcf0542ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Circle01_d.prefab using Guid(8c49446e2bb594c8cb4015fcf0542ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b7ff3d3620dbf29b34f5c136862c378') in 0.029009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd17cb01009c8971f2f8f270b8de1f2a2') in 0.013528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_05.png
+  artifactKey: Guid(cfdad3af7ef6a584ea0b863448664a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_05.png using Guid(cfdad3af7ef6a584ea0b863448664a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ef38e1a55ac7b1e596a976af7c13e69') in 0.028908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c71d8636bee18b7f72ff45a24ddd80e1') in 0.013235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Hexagon01_Red.prefab
+  artifactKey: Guid(2be8689af4340481493c2c9f51d8eeb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Hexagon01_Red.prefab using Guid(2be8689af4340481493c2c9f51d8eeb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dcc197a12b00ff5e1738b9af6fec558') in 0.025290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Hexagon01_Blue.prefab
+  artifactKey: Guid(766697219b1f9467e802797f5c91eeb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Hexagon01_Blue.prefab using Guid(766697219b1f9467e802797f5c91eeb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd10681c82bac087d219a02592f706815') in 0.022597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.740385 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Square03_Purple.prefab
+  artifactKey: Guid(ef5d2e555b20e464697fd2c7cb4f9678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Square03_Purple.prefab using Guid(ef5d2e555b20e464697fd2c7cb4f9678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fbeacfc87f7f85a61d81993777c1157') in 0.031814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Tutorial_Hand.prefab
+  artifactKey: Guid(ed65282c510ce497b849f6056ab012d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Tutorial_Hand.prefab using Guid(ed65282c510ce497b849f6056ab012d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88a429b53aa3e282107bbd1be98611d7') in 0.133257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 709
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_Update.prefab
+  artifactKey: Guid(5fcd0416a7040459f8972c0d4b4617b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_Update.prefab using Guid(5fcd0416a7040459f8972c0d4b4617b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef95265bd2caf763de68772b0ebb42b0') in 0.046055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BarFrame_Bottom01_Navy.prefab
+  artifactKey: Guid(56e374e04c1854116bf947f242dc5487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BarFrame_Bottom01_Navy.prefab using Guid(56e374e04c1854116bf947f242dc5487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90fc8d4f3caae3cb1c6869cfd77bb798') in 0.018876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_LongStar02_BlurryWhite.prefab
+  artifactKey: Guid(07244fc016be747c2a1ecfba4c949872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_LongStar02_BlurryWhite.prefab using Guid(07244fc016be747c2a1ecfba4c949872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e7ca39832903c6fc2ffddcdae608f28') in 0.100714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Type1.prefab
+  artifactKey: Guid(9dbed98b092c64427ad2901359023224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Type1.prefab using Guid(9dbed98b092c64427ad2901359023224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90689bfbef8b9deda2848eef94dbcb14') in 0.086905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 552
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/LevelUp.prefab
+  artifactKey: Guid(ad0f29e58197645e6b021f5accb7d97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/LevelUp.prefab using Guid(ad0f29e58197645e6b021f5accb7d97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97e22c17e6ee7876225a95462cb84c80') in 0.116007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square09.prefab
+  artifactKey: Guid(52b55ebf5da464879a9edd6c2c2bd0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square09.prefab using Guid(52b55ebf5da464879a9edd6c2c2bd0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9eb00619cc5bd37eea1bb7ab0bd8aa6a') in 0.017756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Popups/Popup_SideFrame02.prefab
+  artifactKey: Guid(25abe5bca95cb424192cc3dc0fa8ab40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Popups/Popup_SideFrame02.prefab using Guid(25abe5bca95cb424192cc3dc0fa8ab40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '836cbeeb6973cb9caf8a277e13b57295') in 0.021047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider13.prefab
+  artifactKey: Guid(137903fabff5244448b890439d2450db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider13.prefab using Guid(137903fabff5244448b890439d2450db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a47f443ae5caa27073c53aed5b86232d') in 0.028642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Shines_Glow01.prefab
+  artifactKey: Guid(8be6402111368481290cfa575c0df8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Shines_Glow01.prefab using Guid(8be6402111368481290cfa575c0df8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8ac22811605b0f3b9d630effcc08eda') in 0.036710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SideFrame_Left.prefab
+  artifactKey: Guid(303452c7ede5745198b2be5ff30a32c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SideFrame_Left.prefab using Guid(303452c7ede5745198b2be5ff30a32c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94506d133831c227ccb3766952cac023') in 0.017529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_RewardMonth.prefab
+  artifactKey: Guid(283bc4267b3f24fd784df0a8632aba8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_RewardMonth.prefab using Guid(283bc4267b3f24fd784df0a8632aba8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86f84384babf5c742352b41112938a94') in 0.066604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 904
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/_PrefabsPanel_OtherFrames.prefab
+  artifactKey: Guid(33164486ce18e46c6b5933ed0380e8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/_PrefabsPanel_OtherFrames.prefab using Guid(33164486ce18e46c6b5933ed0380e8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f05240096df0a97dbc9e46226325b09') in 0.062030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 253
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SideFrame_Bottom.prefab
+  artifactKey: Guid(f82fa022e3eac4c189cdc8dfec43365b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SideFrame_Bottom.prefab using Guid(f82fa022e3eac4c189cdc8dfec43365b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea35a492d13c4d8f7e5bada64d24881b') in 0.017032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Pass.prefab
+  artifactKey: Guid(db09391c636264f4cb75d3f00fbec968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Pass.prefab using Guid(db09391c636264f4cb75d3f00fbec968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b41e5467eaa9a79561fc5a72c7c782c') in 0.077353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1057
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Tutorial_Character.prefab
+  artifactKey: Guid(56feeba9d81f8434d97da50517023bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Tutorial_Character.prefab using Guid(56feeba9d81f8434d97da50517023bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81e983997e5f3b08bbdad00d85b6438d') in 0.019892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_BasicLabel02.prefab
+  artifactKey: Guid(605dd814555674d95b1de276946e920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_BasicLabel02.prefab using Guid(605dd814555674d95b1de276946e920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '139e208af9af3df2a0cc69649f0eedab') in 0.027453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame02.prefab
+  artifactKey: Guid(33224d02299ce4ddb8628ff728098c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame02.prefab using Guid(33224d02299ce4ddb8628ff728098c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dabbac40512e2c03c35579398e95d6e9') in 0.016489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_Subscribe.prefab
+  artifactKey: Guid(6fcbc40b971c44f2ab6940f1668c6737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Popup_Subscribe.prefab using Guid(6fcbc40b971c44f2ab6940f1668c6737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1665a249348f1bb38cbc4dd977967645') in 0.043095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider10_LineType_Red.prefab
+  artifactKey: Guid(5dedb281bec5f4bb1aca304cf5fc8671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider10_LineType_Red.prefab using Guid(5dedb281bec5f4bb1aca304cf5fc8671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e596ca26de548e1cb5279b334cdc15c3') in 0.021674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Popups/Popup ↓↓↓↓↓↓↓↓↓↓↓↓↓↓.prefab
+  artifactKey: Guid(4bc2ce7742e394825a6c1146206ad8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Popups/Popup ↓↓↓↓↓↓↓↓↓↓↓↓↓↓.prefab using Guid(4bc2ce7742e394825a6c1146206ad8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2fd3c8f52b4ffe6a2b233ed557c67f42') in 0.016775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider06_BasicType.prefab
+  artifactKey: Guid(7c073ab27d0024b9a9b3cc2459035cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider06_BasicType.prefab using Guid(7c073ab27d0024b9a9b3cc2459035cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ac62aa60015e58c809720d9c174726a') in 0.034260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Pause.prefab
+  artifactKey: Guid(cb5025877c9554d208be4eb441a8a7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Pause.prefab using Guid(cb5025877c9554d208be4eb441a8a7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43393377e0983830f5fcaa4d6022e503') in 0.040931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_TitleFlag_Blue.prefab
+  artifactKey: Guid(64eec638711144cd1850f9884e151b41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_TitleFlag_Blue.prefab using Guid(64eec638711144cd1850f9884e151b41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b95e06879d2a3a622f80d9632dde7be') in 0.022039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_LongStar02_BlurryGreen.prefab
+  artifactKey: Guid(b272963bdf5ad4eda92eee3e922bbc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_LongStar02_BlurryGreen.prefab using Guid(b272963bdf5ad4eda92eee3e922bbc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '778522b7f52db24957e1e1aa2e143582') in 0.042996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/_PrefabsPanel_Buttons.prefab
+  artifactKey: Guid(fa4a72350af3c40aaaab67c974c5c466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/_PrefabsPanel_Buttons.prefab using Guid(fa4a72350af3c40aaaab67c974c5c466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9ea2096e3d0a870cd6199dcb79afb83') in 0.052745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 354
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider17.prefab
+  artifactKey: Guid(15144d0b06c054464b3661f0173709dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider17.prefab using Guid(15144d0b06c054464b3661f0173709dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b47f2238107e6dfbe76e41a0c1dad9c0') in 0.027145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Clan.prefab
+  artifactKey: Guid(d979f93d42f6141ae89167d5ab2be9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Clan.prefab using Guid(d979f93d42f6141ae89167d5ab2be9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e1736dcb456acffb14d35e061aa53a2') in 0.079061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 590
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider07_BasicType_Yellow.prefab
+  artifactKey: Guid(b85a6457ecbac441c93bf00b75f7541a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider07_BasicType_Yellow.prefab using Guid(b85a6457ecbac441c93bf00b75f7541a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e74134ec82b2285e879ade07c23518b') in 0.037021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square01.prefab
+  artifactKey: Guid(d51c75cad271d4f95b84c5d1145a653d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square01.prefab using Guid(d51c75cad271d4f95b84c5d1145a653d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '674f90b81f10cf8ee999a1439fe01f2c') in 0.033280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Rotate_Light02.prefab
+  artifactKey: Guid(b810bd8deadd946908640d87a6a01ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Rotate_Light02.prefab using Guid(b810bd8deadd946908640d87a6a01ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eaa25b4fda38db1377ae576f50dd4c9') in 0.037551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Type2.prefab
+  artifactKey: Guid(699edba7aa1794ae38c91e6c23f8e3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Play_Type2.prefab using Guid(699edba7aa1794ae38c91e6c23f8e3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6731ccaba0c6c86914cf29502e7e8932') in 0.055307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 493
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame01-Group.prefab
+  artifactKey: Guid(ebe05b3961d9d4bc6aa877f873c532b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame01-Group.prefab using Guid(ebe05b3961d9d4bc6aa877f873c532b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e4d608e4d0d5d0bf4e782c653367b13') in 0.020255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame07-Group.prefab
+  artifactKey: Guid(2e67ee3b133a7442d9aca37896578155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame07-Group.prefab using Guid(2e67ee3b133a7442d9aca37896578155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '530117d788e208ff16771bcd6b77ec53') in 0.024037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/LockScreen.prefab
+  artifactKey: Guid(a7842a822701c45e9b14bb068c8ac54b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/LockScreen.prefab using Guid(a7842a822701c45e9b14bb068c8ac54b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a03a2c45292c965932e79c40e8c3e104') in 0.072100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_LeftLabel02.prefab
+  artifactKey: Guid(e810dcce0ce894221a5d8b322b557470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_LeftLabel02.prefab using Guid(e810dcce0ce894221a5d8b322b557470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c234cd989d0b000ab650a91af88a7674') in 0.025410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Equipment_Popup_Detail2.prefab
+  artifactKey: Guid(c9f0651071be94f9abe738f3e277db1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Equipment_Popup_Detail2.prefab using Guid(c9f0651071be94f9abe738f3e277db1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67f7763b3a6e58de4daf483c304da530') in 0.042714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame03-Group-.prefab
+  artifactKey: Guid(1077aa3e225bc4ee1a11738fa96f538d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame03-Group-.prefab using Guid(1077aa3e225bc4ee1a11738fa96f538d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa8caac3e91b77bbf1b9d8a5f6f5a12b') in 0.038214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/RuneFuse.prefab
+  artifactKey: Guid(dd1c5c4c0e7f246fc8fe8396b06c5d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/RuneFuse.prefab using Guid(dd1c5c4c0e7f246fc8fe8396b06c5d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65badebb6825537b8d292d0c2cf922d6') in 0.077424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 785
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Square08.prefab
+  artifactKey: Guid(b7b74df048b214bc18025b5f7193ff6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Buttons/Btn_OtherButton_Square08.prefab using Guid(b7b74df048b214bc18025b5f7193ff6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23c6f9421503b5b18aebe99a858f8f8f') in 0.024570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SpeechBubble01.prefab
+  artifactKey: Guid(8867fb53f6bc245b09b1f39a01af58aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_SpeechBubble01.prefab using Guid(8867fb53f6bc245b09b1f39a01af58aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ae731203ced21fb4a154fcee27a4bfc') in 0.023019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_SpeechBubble01.prefab
+  artifactKey: Guid(68654b4bb730c4228b9b84cbdfc77c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Label/Label_SpeechBubble01.prefab using Guid(68654b4bb730c4228b9b84cbdfc77c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63be391c2cb79efc51d7dbe729e0c864') in 0.020537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Component_3.prefab
+  artifactKey: Guid(13700506ae3724647b3ec90bfe0e507e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Component_3.prefab using Guid(13700506ae3724647b3ec90bfe0e507e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf120e8a6e61347d584ef67def79cefc') in 0.087146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1022
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Rotate_Light04.prefab
+  artifactKey: Guid(dea0d8de0a89f421ca323e9a3ca797e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Rotate_Light04.prefab using Guid(dea0d8de0a89f421ca323e9a3ca797e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46ec86e6727a47e0d92a6a7d2102b5f9') in 0.038063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame11-Group-.prefab
+  artifactKey: Guid(5b6c3024679094e2e9ed95e9f1703d72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame11-Group-.prefab using Guid(5b6c3024679094e2e9ed95e9f1703d72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a8505667bd61d922f8227b27b1bd0bf') in 0.035526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square07.prefab
+  artifactKey: Guid(51b1270fbdf4e41ad9469e3c1dcb8b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square07.prefab using Guid(51b1270fbdf4e41ad9469e3c1dcb8b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2cf819b3b08b8dda0a2a92aa3c6224b') in 0.033154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame06-Group-.prefab
+  artifactKey: Guid(dc48262074cf641eb8d612c235a85eac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame06-Group-.prefab using Guid(dc48262074cf641eb8d612c235a85eac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fef1acb33c44f7ac0a631b9bde488233') in 0.027339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider15.prefab
+  artifactKey: Guid(1bb934a4b02454fad8dd563856b3ff88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider15.prefab using Guid(1bb934a4b02454fad8dd563856b3ff88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9b179e4fe612118de7598135170474a') in 0.037201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Circle02.prefab
+  artifactKey: Guid(586fbfa5d7aae4d90b9d987fa94eee52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Circle02.prefab using Guid(586fbfa5d7aae4d90b9d987fa94eee52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a54dc9e2c36454e0bb282eaa927ebbd') in 0.040679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF Atlas.png
+  artifactKey: Guid(4b1d1d44f277248ae92feb4eb833a4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF Atlas.png using Guid(4b1d1d44f277248ae92feb4eb833a4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7a302a75a6d5caa0eff4f893cbccefe') in 0.036429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular SDF.asset
+  artifactKey: Guid(c1482dbce654844b9ba1c753cbea5d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular SDF.asset using Guid(c1482dbce654844b9ba1c753cbea5d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0e7e86718886270f911c1eb762a34b2') in 0.041817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Notify_Count_Green_s.prefab
+  artifactKey: Guid(6df0f820ba1184c79a899910d60b9d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Notify_Count_Green_s.prefab using Guid(6df0f820ba1184c79a899910d60b9d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee59022826bb56c8217dbe0dfe430da8') in 0.030054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Settings.prefab
+  artifactKey: Guid(4ec798a481bf945e5936c4cb72dd37a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Settings.prefab using Guid(4ec798a481bf945e5936c4cb72dd37a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2221c7f124e1b020a6d7e7b59946ffe1') in 0.020924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF.asset
+  artifactKey: Guid(b741db7ac3d1c423aad5b49a9780ca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF.asset using Guid(b741db7ac3d1c423aad5b49a9780ca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcd20f58653dc3e3b20eb2eacbb3548f') in 0.037556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_210 SDF.asset
+  artifactKey: Guid(f4c4b7e153ed34639b17d3000ece2ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_210 SDF.asset using Guid(f4c4b7e153ed34639b17d3000ece2ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edcf19a30f5982e925b2857e6a858faf') in 0.131094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryYellow.prefab
+  artifactKey: Guid(670f74eb019d54f83be52c178c883c40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryYellow.prefab using Guid(670f74eb019d54f83be52c178c883c40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb9b863da902325c33f4b5af1035c134') in 0.044872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Mission.prefab
+  artifactKey: Guid(8bf31863bc11b4d209b66250d31a25ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Mission.prefab using Guid(8bf31863bc11b4d209b66250d31a25ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4643f599552f03a8d47a1de7f4963cc7') in 0.056916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 333
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Star05.prefab
+  artifactKey: Guid(7bf27f41a19ae4ab2aaf159672ca03c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Star05.prefab using Guid(7bf27f41a19ae4ab2aaf159672ca03c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '735fb3b651dbd5241fab9e4f1d4a0c81') in 0.041197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar02_ClearYellow.prefab
+  artifactKey: Guid(5e076c2050af74a1bb547e9df94e3083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar02_ClearYellow.prefab using Guid(5e076c2050af74a1bb547e9df94e3083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '121841fadf20f46e4c3d7e7998f48f0d') in 0.036227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Gem.prefab
+  artifactKey: Guid(03bea426b5b6b46ae998cec5f8d6d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Gem.prefab using Guid(03bea426b5b6b46ae998cec5f8d6d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8f201a7d75068beb5120e6d1ba15715') in 0.026320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Double.prefab
+  artifactKey: Guid(7f8d8b20f63474c16a1f297818dfe9e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Double.prefab using Guid(7f8d8b20f63474c16a1f297818dfe9e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '167648fb2bc8c27d7f9e6d3a17e60fe3') in 0.025230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Animatons/Loading.anim
+  artifactKey: Guid(9c20f215af6a84358874d19ece3f974a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Animatons/Loading.anim using Guid(9c20f215af6a84358874d19ece3f974a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1837bdebac746e4a68a4c5f2bb451125') in 0.026963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Rune.prefab
+  artifactKey: Guid(e45228034d7214e2caf442eaf5c67546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Rune.prefab using Guid(e45228034d7214e2caf442eaf5c67546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6dc085107f991bfd966ff2bc8df70459') in 0.026304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/GoldenPass_Info.prefab
+  artifactKey: Guid(e14338fd4a2c34951a1e3dbf5ae71eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/GoldenPass_Info.prefab using Guid(e14338fd4a2c34951a1e3dbf5ae71eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c98acac388ca1f40c5c32787b81e029') in 0.036299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Penta.prefab
+  artifactKey: Guid(54a3814d9cf704226832f7e44cd9350a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Penta.prefab using Guid(54a3814d9cf704226832f7e44cd9350a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80916878faf6440225696b28dd3f2e3b') in 0.024817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star01_CustomColor_Green.prefab
+  artifactKey: Guid(cc85d80a7d0904dd4831aed1e49c1eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star01_CustomColor_Green.prefab using Guid(cc85d80a7d0904dd4831aed1e49c1eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08e225132264f6b3e2732b5d1b69f5f8') in 0.041009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF Atlas.png
+  artifactKey: Guid(be2c5d62ca95142e3b9dc4d4a638b2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF Atlas.png using Guid(be2c5d62ca95142e3b9dc4d4a638b2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0539f45ffd8a2fbb250ce765d029a69') in 0.035715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star01_CustomColor_White.prefab
+  artifactKey: Guid(98cbb119042f746088032e765ef3b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star01_CustomColor_White.prefab using Guid(98cbb119042f746088032e765ef3b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cdbace835adb82817517de20eef120bd') in 0.035556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryBlue.prefab
+  artifactKey: Guid(2b04ae8f7bfe94d539c75e8b6b4d4da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryBlue.prefab using Guid(2b04ae8f7bfe94d539c75e8b6b4d4da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '955abdb51019ddfb160fcb06aa5dd614') in 0.037339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Ranking.prefab
+  artifactKey: Guid(5b954ef78c11845578b8ba0557711792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Ranking.prefab using Guid(5b954ef78c11845578b8ba0557711792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1226e349b0c080cb0aef4c120a5897d') in 0.058355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Horizontal_Shop.prefab
+  artifactKey: Guid(8132dd31d77cd4c2fa08fa884890a140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Horizontal_Shop.prefab using Guid(8132dd31d77cd4c2fa08fa884890a140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa6606d2d83cae4a185a85af58fc8bd1') in 0.084852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 666
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Clan_Mark_Small.prefab
+  artifactKey: Guid(837fe1b35b5d5494695d951836e90d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Clan_Mark_Small.prefab using Guid(837fe1b35b5d5494695d951836e90d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '775417916b93084371171b2f23e0138d') in 0.017633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/RuneFuse.prefab
+  artifactKey: Guid(f3293c78e982941b09f36505f32ded5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/RuneFuse.prefab using Guid(f3293c78e982941b09f36505f32ded5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9c167a3ed6548eed1624040da707f34') in 0.035163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Toggle_Switch_Off.prefab
+  artifactKey: Guid(54dfdd234da7d44f9be950ba9fe9bd54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Toggle_Switch_Off.prefab using Guid(54dfdd234da7d44f9be950ba9fe9bd54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddd017cd273fda81e05dba79f95a1a84') in 0.022596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Star04.prefab
+  artifactKey: Guid(0dd1048b678f141ebbbff014ab7f72af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Spread_Star04.prefab using Guid(0dd1048b678f141ebbbff014ab7f72af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41c852001355eb318779816bdd467a82') in 0.038051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_64 SDF.asset
+  artifactKey: Guid(4995422ffdb954b70a642f73eb1442ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_64 SDF.asset using Guid(4995422ffdb954b70a642f73eb1442ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de378e7ecc192d1ddaea68c40317dace') in 0.036705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Icons_Skill.prefab
+  artifactKey: Guid(f56eb8a9e6c9c4461be9b654cd680c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Icons_Skill.prefab using Guid(f56eb8a9e6c9c4461be9b654cd680c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1b3d682bf697d3fe74060a83815612b') in 0.025271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png
+  artifactKey: Guid(aa9fdc7ac23d342798922793111065d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png using Guid(aa9fdc7ac23d342798922793111065d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd247d24eafa0b648622db357b56e32b7') in 0.028373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Inbox.prefab
+  artifactKey: Guid(cc1eb09c35da04feba58ee84c6367da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Inbox.prefab using Guid(cc1eb09c35da04feba58ee84c6367da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '352800bdf9c4d1134a906065e243a455') in 0.044269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryGreen.prefab
+  artifactKey: Guid(07ec2176522ca454fa10ed02baedfb77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_XStar01_BlurryGreen.prefab using Guid(07ec2176522ca454fa10ed02baedfb77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd152fea729c83753afaf761aee1f96a3') in 0.040756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star02_ClearPurple.prefab
+  artifactKey: Guid(c4fa1bbfaf01b4b95b9fb9d369d0e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Particle/Fx_Sparkle_Star02_ClearPurple.prefab using Guid(c4fa1bbfaf01b4b95b9fb9d369d0e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3ed1206e4ab6ac44630476ce3845459') in 0.041214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Help.prefab
+  artifactKey: Guid(7c29e46d6d0c64627bbcd94940122a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Help.prefab using Guid(7c29e46d6d0c64627bbcd94940122a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9319dd3b0c2eceae204a02079617fd2') in 0.025786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Stage_Select_Type1.prefab
+  artifactKey: Guid(840593b01a46043cf80844f595f0fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Stage_Select_Type1.prefab using Guid(840593b01a46043cf80844f595f0fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffd1c8c51758f7f8ef1c8a0fe4011a69') in 0.048115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Chest.prefab
+  artifactKey: Guid(d8411e1d9fade4b75b10edc3712c5b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Reward_Chest.prefab using Guid(d8411e1d9fade4b75b10edc3712c5b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd33c76fff8b235517381936d72fc6f5') in 0.021724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Sell.prefab
+  artifactKey: Guid(b2deeab871b844bf591b2640b501a6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Button_Sell.prefab using Guid(b2deeab871b844bf591b2640b501a6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9aa1560b8a92065448d0b64f18b107b8') in 0.033703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Equipment_Popup_Detail1.prefab
+  artifactKey: Guid(70f9be7942c4347aab8621631566f75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Equipment_Popup_Detail1.prefab using Guid(70f9be7942c4347aab8621631566f75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '141712ff815024b3b81692eb40434cf4') in 0.052765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/RewardWeek.prefab
+  artifactKey: Guid(b0250ff54148444d6b797c63462c6391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/RewardWeek.prefab using Guid(b0250ff54148444d6b797c63462c6391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '660dbb537880aa3124f1c6207cc6738b') in 0.062727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Triple.prefab
+  artifactKey: Guid(288b57854aecd46c68e2f9472828cfac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/Play_Text_Kill_Triple.prefab using Guid(288b57854aecd46c68e2f9472828cfac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '531e172ab1da731f9b56eaf8480af55e') in 0.024471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider03_IconType.prefab
+  artifactKey: Guid(73756566708d04191bbd074bbf63982c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider03_IconType.prefab using Guid(73756566708d04191bbd074bbf63982c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1443ae46abe41ccffdee95c54b106fad') in 0.034260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF Atlas.png
+  artifactKey: Guid(b549307935a4b424aa346ab218ec8f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF Atlas.png using Guid(b549307935a4b424aa346ab218ec8f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dacbc3cf9145e3c94b769f2146741a3') in 0.034751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular.ttf
+  artifactKey: Guid(c16eb7d7c3953489db00312b8b09df4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular.ttf using Guid(c16eb7d7c3953489db00312b8b09df4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01919e204e901e0206b54606b4d05323') in 0.027901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Charactercard.prefab
+  artifactKey: Guid(7fd6b39645a764cadb0d02ff6a0b0127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Charactercard.prefab using Guid(7fd6b39645a764cadb0d02ff6a0b0127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd948bba77b3d8d63cf1696adc4f64c5d') in 0.073652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Rune.prefab
+  artifactKey: Guid(d8e17db2039214fde8e7fda3fa06e728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Demo_UI/ScrollRect_Vertical_Rune.prefab using Guid(d8e17db2039214fde8e7fda3fa06e728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd565c507eac578686711a971da545380') in 0.050067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 463
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BarFrame_Top02_Navy.prefab
+  artifactKey: Guid(f5be5e8c4be2d4e63af5dee3624dad0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BarFrame_Top02_Navy.prefab using Guid(f5be5e8c4be2d4e63af5dee3624dad0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd2be02d435ef41c2e551d99858c5f6b') in 0.022151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider10_LineType_Green.prefab
+  artifactKey: Guid(1c5875dfdde00438ebcc67c6b43305d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Slider/Slider10_LineType_Green.prefab using Guid(1c5875dfdde00438ebcc67c6b43305d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2744e8edc00a34864f3cbfa7bdc6e532') in 0.026287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Ranking.prefab
+  artifactKey: Guid(a041c7851f2504fef961972046b6ff3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_DemoScene_Panels/Ranking.prefab using Guid(a041c7851f2504fef961972046b6ff3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6229d3b75cf43ece39c7288facc0079') in 0.074566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 379
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Bag_03.fbx
+  artifactKey: Guid(c3f19aa421dbf2c419745b1bfca505e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Bag_03.fbx using Guid(c3f19aa421dbf2c419745b1bfca505e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1b708fb9078f3913bbe84697ec1b690') in 0.040671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_SmallBuilding_01_C_Collision.fbx
+  artifactKey: Guid(e2efa764cf969844782fae6af78f8f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_SmallBuilding_01_C_Collision.fbx using Guid(e2efa764cf969844782fae6af78f8f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a851ada16dc3a06bf2a3716349c355ad') in 0.027657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Char_Attach_Helmet_01_Convex.asset
+  artifactKey: Guid(9fb7d7f4c8aeeac479211de2a555f8e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Char_Attach_Helmet_01_Convex.asset using Guid(9fb7d7f4c8aeeac479211de2a555f8e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '010d464a966b41507a3a9e0123c0bc7d') in 0.015418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_03_C.mat
+  artifactKey: Guid(66f01a2f0cda4f74db64932e7f31c68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_03_C.mat using Guid(66f01a2f0cda4f74db64932e7f31c68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a734e3497438d2e7227949a570c6e923') in 0.020580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_House_01_C_Collision.fbx
+  artifactKey: Guid(3026cbf18a414bf47b5889e5096cd0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_House_01_C_Collision.fbx using Guid(3026cbf18a414bf47b5889e5096cd0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edd8d4d070c626a2914cd87b0dfd62ad') in 0.026158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Beer_01_Convex.asset
+  artifactKey: Guid(73333cd135f69e14db3828384038a00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Beer_01_Convex.asset using Guid(73333cd135f69e14db3828384038a00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a85dc19d3a3f69781a4869ce81c51bbc') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_02_Convex.asset
+  artifactKey: Guid(aaf7fbf64a9d20847be800605f584503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_02_Convex.asset using Guid(aaf7fbf64a9d20847be800605f584503) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c91a587569dc76113ffd9d9556fd78e') in 0.016565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Samurai_01_Convex.asset
+  artifactKey: Guid(df5196e30ff20d7419973ff37747ca24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Samurai_01_Convex.asset using Guid(df5196e30ff20d7419973ff37747ca24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1ce52345e39894ecf1762b3d7cb73d9') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Eyepatch_01_Convex.asset
+  artifactKey: Guid(632b0a6e68c10d244a3d6c7a3e1b2270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Eyepatch_01_Convex.asset using Guid(632b0a6e68c10d244a3d6c7a3e1b2270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9500e7bbac2e529cc8696a6bae295d0a') in 0.019866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Racoon_01_Convex.asset
+  artifactKey: Guid(932b1d5cb06295e4cb757fdd1b7d44a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Racoon_01_Convex.asset using Guid(932b1d5cb06295e4cb757fdd1b7d44a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c38005dff242edeac64f57ec1b81f802') in 0.015383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Bunny_01_Convex.asset
+  artifactKey: Guid(c12abb0ab9f82f44a8fd008cff37d215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Bunny_01_Convex.asset using Guid(c12abb0ab9f82f44a8fd008cff37d215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8e75f68b082fedbd81725337f8217ec') in 0.013992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Plane_02.mat
+  artifactKey: Guid(0ae7a1c52ecbb474e9d597bea6de57a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Plane_02.mat using Guid(0ae7a1c52ecbb474e9d597bea6de57a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd47b656d8346ffc5c93ce11487ade958') in 0.037002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Shader & Materials/UIAdditive.shader
+  artifactKey: Guid(a5e0f9ecc5bd641c0b9a6c17fa79ded3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Shader & Materials/UIAdditive.shader using Guid(a5e0f9ecc5bd641c0b9a6c17fa79ded3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fef10894c6060a56edc01c6dac5a811') in 0.017969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Emmision.mat
+  artifactKey: Guid(43661ff2635bdc947b87d5d0f816367e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Emmision.mat using Guid(43661ff2635bdc947b87d5d0f816367e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '959ce449fed6a9c32e4fa9514946290d') in 0.021943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Mexican_01_Convex.asset
+  artifactKey: Guid(2ed35de07be70ba47b38a2d9bd829d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Mexican_01_Convex.asset using Guid(2ed35de07be70ba47b38a2d9bd829d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '203720fbc969d49a9c3db72e306d807d') in 0.016921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_02_B.mat
+  artifactKey: Guid(2ed6e36fef9da7944ac2639fe1968b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_02_B.mat using Guid(2ed6e36fef9da7944ac2639fe1968b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06dc2226ea97e09c4e0af8c9daba9b6b') in 0.019787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_SmallBuilding_03_C_Collision.fbx
+  artifactKey: Guid(db34398713477ea4db6d9992ff8afc9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/CollisionCustom/SM_Bld_SmallBuilding_03_C_Collision.fbx using Guid(db34398713477ea4db6d9992ff8afc9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68ada5fd7213e80609af77d0f59c5a60') in 0.026208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Scarf_01_Convex.asset
+  artifactKey: Guid(64a8d541b0fe57e4f829badf72b4483a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Scarf_01_Convex.asset using Guid(64a8d541b0fe57e4f829badf72b4483a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc573b975920c732b0409326abc7d595') in 0.015318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/ResourcesData/Shader & Materials/UIAdditive.mat
+  artifactKey: Guid(728fa64fe6dd24aa5ae13b1da2514961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GUI PRO Kit - Casual Game/ResourcesData/Shader & Materials/UIAdditive.mat using Guid(728fa64fe6dd24aa5ae13b1da2514961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09e9a26edea683a2ba2b0ceb226a5de3') in 0.018092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Generic.mat
+  artifactKey: Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Generic.mat using Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92883bbb2fceadd0086158890080afc7') in 0.018908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_06.mat
+  artifactKey: Guid(820c934a18125d74480ffef1420d426e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_06.mat using Guid(820c934a18125d74480ffef1420d426e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b29029ee52fb1312706c2e6fdc2ae40') in 0.019165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_Water.mat
+  artifactKey: Guid(7ebfd405eb8711d4bb584f620ef5043a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_Water.mat using Guid(7ebfd405eb8711d4bb584f620ef5043a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41743e5e47607e39ebac07f03fb006a7') in 0.018991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Default.mat
+  artifactKey: Guid(d167ef288d96bb84ca9743bf908f53cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_FX_Default.mat using Guid(d167ef288d96bb84ca9743bf908f53cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61fd51f52571171a32f1aa4944ba8392') in 0.020125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_03.fbx
+  artifactKey: Guid(8eea04aa9606f924b921b36867d71060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_03.fbx using Guid(8eea04aa9606f924b921b36867d71060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88bf9c10b4bd185bfcc1e48579a9049a') in 0.027656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_FlatTop_01_Convex.asset
+  artifactKey: Guid(e1d866abba0e3704d9f8cb75e03c80e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_FlatTop_01_Convex.asset using Guid(e1d866abba0e3704d9f8cb75e03c80e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbe6a69cf939cb6100c0463fcd0a30cf') in 0.017440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Female_01_Convex.asset
+  artifactKey: Guid(aeca703a7e0eeab4f8b90dd555b70b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Female_01_Convex.asset using Guid(aeca703a7e0eeab4f8b90dd555b70b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c06ffe89154e2342dc4b9bea7b7e5664') in 0.015953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Mil_01_Convex.asset
+  artifactKey: Guid(4dd309c8c7cd8fe46b0c6b5813e340f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Mil_01_Convex.asset using Guid(4dd309c8c7cd8fe46b0c6b5813e340f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50cd080aa2bb3e64f819185d6e7d752a') in 0.014938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Female_02_Convex.asset
+  artifactKey: Guid(eb5f1a0064780cb43bc745e709aebf27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Female_02_Convex.asset using Guid(eb5f1a0064780cb43bc745e709aebf27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00925f13a692d0e86ea48b0f72d332e5') in 0.018034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Roman_01_Convex.asset
+  artifactKey: Guid(2c082b12dd3bb6843a7e29ee3e30e7c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Roman_01_Convex.asset using Guid(2c082b12dd3bb6843a7e29ee3e30e7c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b85759cb1ba1fcb2f9c12830cedad46') in 0.017819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Char_Attach_Bag_Lvl1_Convex.asset
+  artifactKey: Guid(348ea1eda5292c4498e393eaf8d25ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Char_Attach_Bag_Lvl1_Convex.asset using Guid(348ea1eda5292c4498e393eaf8d25ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5519b1749b44af9708a59aa2223a4eee') in 0.016846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_01.fbx
+  artifactKey: Guid(e011db342606078439bcc091bd235e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_01.fbx using Guid(e011db342606078439bcc091bd235e69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '064ee476dc618abfcfc12324c0c7bf25') in 0.028126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Facemask_01_Convex.asset
+  artifactKey: Guid(5a6b6450abcf12247930be2004f8d04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Facemask_01_Convex.asset using Guid(5a6b6450abcf12247930be2004f8d04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '143b370ed614e7f06df52e3872d2c8d8') in 0.016664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Tank_Tracks.mat
+  artifactKey: Guid(11506cd46baeff649a0c2c03f1257047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Tank_Tracks.mat using Guid(11506cd46baeff649a0c2c03f1257047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28634f15d79f20f58b4ff4438afa4223') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Beard_02_Convex.asset
+  artifactKey: Guid(28599f724e53e164593e46262db149dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Beard_02_Convex.asset using Guid(28599f724e53e164593e46262db149dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1135541884aef7a39eb62b536eaf1087') in 0.019721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Pot_01_Convex.asset
+  artifactKey: Guid(fc7064618f52fef4287ac490a0e091c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Pot_01_Convex.asset using Guid(fc7064618f52fef4287ac490a0e091c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1da54f69289e54749171553effd1dd5b') in 0.016367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_03_Convex.asset
+  artifactKey: Guid(ff6744d69602b414bb72db2d9e0a2856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_03_Convex.asset using Guid(ff6744d69602b414bb72db2d9e0a2856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99ffbd13815fbe98167cb9109fe66688') in 0.015588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_01_Convex.asset
+  artifactKey: Guid(ade6326975be2974390e33d2dd5b07dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Male_Hair_01_Convex.asset using Guid(ade6326975be2974390e33d2dd5b07dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d080579cd9326b1c87a0a40216ceb57') in 0.014186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Unicorn_01_Convex.asset
+  artifactKey: Guid(f041285b38732b945b50873bb5a09361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/ConvexCollision/SM_Chr_Attach_Hat_Unicorn_01_Convex.asset using Guid(f041285b38732b945b50873bb5a09361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73712bf41fa172a5bf7147210ece7f60') in 0.016249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_05.mat
+  artifactKey: Guid(0b37fc8c20ed60a429462b14c2bd82dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_05.mat using Guid(0b37fc8c20ed60a429462b14c2bd82dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce5710abdd86503772a462b5d1867dfe') in 0.023774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_01.fbx
+  artifactKey: Guid(99c42e85cfad1574694894850e1081d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_01.fbx using Guid(99c42e85cfad1574694894850e1081d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bbcdd8440cfa85a112332122a4e7eeb') in 0.025651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
